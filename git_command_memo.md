@@ -2,7 +2,6 @@
 git checkout -b <new_branch_name>
 ```
 新しいブランチを作ってチェックアウトする
---------
 
 ```ruby
 HEAD
@@ -13,7 +12,7 @@ HEAD
 ```ruby
 git reset --hard HEAD~1
 ```
-\HEAD~1より後の変更を全て捨ててHEAD~1の状態に戻ってチェックアウトする
+HEAD\~1より後の変更を全て捨ててHEAD~1の状態に戻ってチェックアウトする
 （最後のコミットはdangling commitとなる）
 
 ```ruby
