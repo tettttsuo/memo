@@ -1,0 +1,10 @@
+新しいブランチを作ってチェックアウトする
+git checkout -b <new_branch_name>
+
+HEAD~1（最後のコミットの一つ前）の状態に戻ってチェックアウトする
+（最後のコミットはdangling commitとなる）
+git reset --hard HEAD~1
+
+HEAD~1（最後のコミットの一つ前）チェックアウトする
+（最後のコミットはdangling commitとなる）
+git reset --mixex HEAD~1
