@@ -5,7 +5,7 @@ HEAD
 今チェックアウトしてるコミット
 
 git reset --hard HEAD~1
-HEAD\~1より後の変更を全て捨ててHEAD~1の状態に戻ってチェックアウトする
+HEAD~1より後の変更を全て捨ててHEAD~1の状態に戻ってチェックアウトする
 （最後のコミットはdangling commitとなる）
 
 git reset --mixed HEAD~1
@@ -18,3 +18,4 @@ stagingブランチを作りチェックアウト。さらに、heroku-staging�
   remote = heroku-staging
   merge = refs/heads/master
 が設定される。
+
